@@ -7,8 +7,17 @@ print("Rock, Paper, Scissors, Shoot!")
 #source python docs
 
 x = input("Please choose one of 'rock', 'paper', 'scissors'")
-Print (x)
+print (x)
 #validate user input
+
+
+(if x =="rock") or (x == "paper") or (X == "scissors"):
+    print("valid")
+else:
+    print("oops, invalid, please try again")
+    exit()
+
+print("Later Messages")
 
 #generate computer choice
 
