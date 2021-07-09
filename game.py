@@ -44,6 +44,7 @@ elif (x) == "scissors":
     x = 2
 
 #determine if we won or lost
+#user picks rock
 if (x) == 0: #rock
     if (c) == "rock":
         print ("It's s tie! Spin again")
@@ -54,6 +55,16 @@ if (x) == 0: #rock
     if (c) == "Scissors":
         print ("You win!")
 
+#user picks Paper
+if (x) == 1: #paper
+    if (c) == "rock":
+        print ("You win!")
+if (x) == 1: #Paper
+    if (c) == "paper":
+        print ("It's a tie, try again!")
+if (x) == 1: #paper
+    if (c) == "Scissors":
+        print ("You lose!")
 
 
 
@@ -62,10 +73,4 @@ if (x) == 0: #rock
 
 
 
-
-
-  #  elif (x) == 1: #paper
-   #     print ("Paper covers rock, you lose!")
-    #elif (x) == 2: #scissors
-     #   print ("Rock beats Paper!")
 
