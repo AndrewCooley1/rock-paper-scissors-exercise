@@ -22,7 +22,7 @@ else:
     exit()
 
 
-print("user chose: ",x)
+print("User chose: ",x)
 
 #generate computer choice
 #https://docs.python.org/3/library/random.html
@@ -32,5 +32,5 @@ print("user chose: ",x)
 valid_options = ["rock", "paper", "scissors"] #list
 
 c = random.choice(valid_options)
-print("COMPUTER Chose:", c)
+print("Computer Chose:", c)
 #determine the winner
