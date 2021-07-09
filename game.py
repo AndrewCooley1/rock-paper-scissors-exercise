@@ -34,3 +34,38 @@ valid_options = ["rock", "paper", "scissors"] #list
 c = random.choice(valid_options)
 print("Computer Chose:", c)
 #determine the winner
+
+#convert rock, paper and scissor into numbers
+if (x) == "rock":
+    x = 0
+elif (x) == "paper":
+    x = 1
+elif (x) == "scissors":
+    x = 2
+
+#determine if we won or lost
+if (x) == 0: #rock
+    if (c) == "rock":
+        print ("It's s tie! Spin again")
+if (x) == 0: #rock
+    if (c) == "paper":
+        print ("You lose, try again!")
+if (x) == 0: #rock
+    if (c) == "Scissors":
+        print ("You win!")
+
+
+
+
+
+
+
+
+
+
+
+  #  elif (x) == 1: #paper
+   #     print ("Paper covers rock, you lose!")
+    #elif (x) == 2: #scissors
+     #   print ("Rock beats Paper!")
+
