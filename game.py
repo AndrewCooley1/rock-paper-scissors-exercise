@@ -35,7 +35,7 @@ c = random.choice(valid_options)
 print("Computer Chose:", c)
 #determine the winner
 
-#convert rock, paper and scissor into numbers
+#convert user pick of rock, paper and scissor into numbers
 if (x) == "rock":
     x = 0
 if (x) == "paper":
@@ -44,6 +44,7 @@ if (x) == "scissors":
     x = 2
 
 #determine if we won or lost
+#inspired by losely https://www.youtube.com/watch?v=ZDiPqfFF7pw
 #user picks rock
 if (x) == 0: #rock
     if (c) == "rock":
