@@ -38,9 +38,9 @@ print("Computer Chose:", c)
 #convert rock, paper and scissor into numbers
 if (x) == "rock":
     x = 0
-elif (x) == "paper":
+if (x) == "paper":
     x = 1
-elif (x) == "scissors":
+if (x) == "scissors":
     x = 2
 
 #determine if we won or lost
@@ -65,6 +65,17 @@ if (x) == 1: #Paper
 if (x) == 1: #paper
     if (c) == "Scissors":
         print ("You lose!")
+
+#user picks scissors
+if (x) == 2: #scissors
+    if (c) == "rock":
+        print ("You lose!")
+if (x) == 2: #scissors
+    if (c) == "paper":
+        print ("You win!")
+if (x) == 2: #scissors
+    if (c) == "Scissors":
+        print ("It's a tie, try again!")
 
 
 
