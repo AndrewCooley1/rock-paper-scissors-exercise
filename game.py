@@ -49,7 +49,7 @@ print("Computer Chose:", c)
 if x == c:
     print("It's a tie, try again")
 elif x == "rock" and c == "paper":
-        print ("You Lose! Play again")
+    print ("You Lose! Play again")
 elif x ==  "rock" and c == "scissors":
     print ("You win! Yay!")
 elif x == "paper" and c == "rock":
