@@ -46,36 +46,36 @@ print("Computer Chose:", c)
 #determine if we won or lost
 #inspired by losely https://www.youtube.com/watch?v=ZDiPqfFF7pw
 #user picks rock
-"if (x) == rock": #rock
-    "if (c) == rock":
+if x == "rock": #rock
+    if (c) == "rock"
         print ("It's s tie! Spin again")
-"if (x) == rock": #rock
-    "if (c) == paper":
+if (x) == "rock": #rock
+    if (c) == "paper":
         print ("You lose, try again!")
-"if (x) == rock": #rock
-    "if (c) == Scissors":
+if (x) == "rock": #rock
+    if (c) == "Scissors":
         print ("You win!")
 
 #user picks Paper
-"if (x) == paper": #paper
-    "if (c) == rock":
+if (x) == "paper": #paper
+    if (c) == "rock":
         print ("You win!")
-"if (x) == paper": #Paper
-    "if (c) == paper":
+if (x) == "paper": #Paper
+    if (c) == "paper":
         print ("It's a tie, try again!")
-"if (x) == paper": #paper
-    "if (c) == Scissors":
+if (x) == "paper": #paper
+    if (c) == "Scissors":
         print ("You lose!")
 
 #user picks scissors
-"if (x) == scissors": #scissors
-    "if (c) == rock":
+if (x) == "scissors": #scissors
+    if (c) == "rock":
         print ("You lose!")
-"if (x) == scissors": #scissors
-    "if (c) == paper":
+if (x) == "scissors": #scissors
+    if (c) == "paper":
         print ("You win!")
-"if (x) == scissors": #scissors
-    "if (c) == Scissors":
+if (x) == "scissors": #scissors
+    if (c) == "Scissors":
         print ("It's a tie, try again!")
 
 
