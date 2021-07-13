@@ -46,43 +46,17 @@ print("Computer Chose:", c)
 #determine if we won or lost
 #inspired by losely https://www.youtube.com/watch?v=ZDiPqfFF7pw
 #user picks rock
-if x == "rock": #rock
-    if (c) == "rock"
-        print ("It's s tie! Spin again")
-if (x) == "rock": #rock
-    if (c) == "paper":
-        print ("You lose, try again!")
-if (x) == "rock": #rock
-    if (c) == "Scissors":
-        print ("You win!")
-
-#user picks Paper
-if (x) == "paper": #paper
-    if (c) == "rock":
-        print ("You win!")
-if (x) == "paper": #Paper
-    if (c) == "paper":
-        print ("It's a tie, try again!")
-if (x) == "paper": #paper
-    if (c) == "Scissors":
-        print ("You lose!")
-
-#user picks scissors
-if (x) == "scissors": #scissors
-    if (c) == "rock":
-        print ("You lose!")
-if (x) == "scissors": #scissors
-    if (c) == "paper":
-        print ("You win!")
-if (x) == "scissors": #scissors
-    if (c) == "Scissors":
-        print ("It's a tie, try again!")
-
-
-
-
-
-
-
-
-
+if x == c:
+    print("It's a tie, try again")
+elif x == "rock" and c == "paper":
+        print ("You Lose!")
+elif x ==  "rock" and c == "scissors":
+    print ("You win!")
+elif x == "paper" and c == "rock":
+    print ("you win! 1")
+elif x == "paper" and c == "scissors":
+    print ("you lose 1")
+elif x == "scissors" and c == "rock":
+    print ("you lose! 2")
+elif x == "scissors" and c == "paper":
+    print ("You win! 2")
