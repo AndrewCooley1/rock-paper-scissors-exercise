@@ -55,7 +55,7 @@ elif x ==  "rock" and c == "scissors":
 elif x == "paper" and c == "rock":
     print ("you win! Yay!")
 elif x == "paper" and c == "scissors":
-    print ("You lose! Better Luck next time.")
+    print ("You lose! Better luck next time.")
 elif x == "scissors" and c == "rock":
     print ("You lose! Sorry!")
 elif x == "scissors" and c == "paper":
