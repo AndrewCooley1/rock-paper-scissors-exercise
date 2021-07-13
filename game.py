@@ -44,7 +44,7 @@ print("Computer Chose:", c)
 #    x = 2
 
 #determine if we won or lost
-#inspired by losely https://www.youtube.com/watch?v=ZDiPqfFF7pw
+#inspired by losely https://www.geeksforgeeks.org/python-if-else/#if-else
 #user picks rock
 if x == c:
     print("It's a tie, try again")
